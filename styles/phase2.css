@@ -5,19 +5,29 @@
 	color: #7C7C7C;
 	background-color:#222222;
 	width:100%;
-	font-family:'Fira Sans', serif;
+	font-family:'Fira Sans', arial;
 	padding-bottom:0px;
 	padding-top:11px;
+	display:flex;
+	justify-content:space-around;
 }
 
 .navbar-element{
 	display:inline;
 	padding-left:5px;
-	border-right: 1px solid #7C7C7C;
 	padding-right: 5px;
 	margin-top: 0;
 	position:relative;
 	float:left;
+}
+
+.nav-link{
+	text-decoration:none;
+	color:#65737A;
+}
+
+.nav-link:hover{
+	color: #dfdfdf;
 }
 
 #hello-button{
@@ -29,7 +39,7 @@
 
 #intro-div{
 	color:#DFDFDF;
-	font-family:'Cabin', serif;
+	font-family:'Cabin', arial;
 	left:44.3%;
 	text-align:center;
 }
@@ -58,7 +68,7 @@
 	display: flex;
 	color: #DFDFDF;
 	background-color: #333333;
-	font-family:'Cabin', serif;
+	font-family:'Cabin', arial;
 	margin: auto;
 	margin-top:80px;
 	margin-bottom: 30px;
@@ -85,7 +95,7 @@
 .preview-tile{
 	color: #B3C0D3;
 	background-color: #FFFFFF;
-	font-family:'Cabin', serif;
+	font-family:'Cabin', arial;
 	border: 1px solid grey;
 	border-radius:50%;
 	padding:20px;
