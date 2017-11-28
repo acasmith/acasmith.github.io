@@ -1,0 +1,156 @@
+/*PHASE2*/
+#navbar{
+	position:fixed;
+	height: 30px;
+	color: #7C7C7C;
+	background-color:#222222;
+	width:100%;
+	font-family:'Fira Sans', serif;
+	padding-bottom:0px;
+	padding-top:11px;
+}
+
+.navbar-element{
+	display:inline;
+	padding-left:5px;
+	border-right: 1px solid #7C7C7C;
+	padding-right: 5px;
+	margin-top: 0;
+	position:relative;
+	float:left;
+}
+
+#hello-button{
+	position:relative;
+	border-radius:10%;
+	font-family:'Cabin';
+	margin-top:20%;
+}
+
+#intro-div{
+	color:#DFDFDF;
+	font-family:'Cabin', serif;
+	left:44.3%;
+	text-align:center;
+}
+
+#greeting-heading{
+	color: #CAA054;
+	font-family: 'Roboto';
+	font-size: 375%;
+	border-bottom: 1px solid #707070;
+	margin: auto;
+	max-width:120px;
+	padding-bottom:12px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:10px;
+}
+
+#container1{
+	max-width:500px;
+	margin: 0 auto;
+	justify-content:center;
+	text-align: center;
+}
+
+#main-tile{
+	display: flex;
+	color: #DFDFDF;
+	background-color: #333333;
+	font-family:'Cabin', serif;
+	margin: auto;
+	margin-top:80px;
+	margin-bottom: 30px;
+	border-radius:5%;
+	padding-top:20px;
+	padding-bottom:20px;
+	max-width: 800px;
+	text-align:left;
+	align-items:center;
+	
+}
+
+#scroll-left{
+	position:relative;
+	float:right;
+}
+
+.row{
+	margin-top:50px;
+	display:flex;
+	justify-content: space-between;
+}
+
+.preview-tile{
+	color: #B3C0D3;
+	background-color: #FFFFFF;
+	font-family:'Cabin', serif;
+	border: 1px solid grey;
+	border-radius:50%;
+	padding:20px;
+	flex-grow: 1;
+	max-width: 50px;
+	
+}
+
+#left-tile{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	margin:0;
+}
+
+#center-tile{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#right-tile{
+	display:flex;
+	justify-content: center;
+}
+
+#github-pic{
+	width:64px;
+	height:64px;
+	padding:0px;
+}
+
+#free-code-camp-pic{
+	width:73px;
+	height:50px;
+	margin-top: 7px;
+	margin-bottom:7px;
+}
+
+#codewars-pic{
+	height:64px;
+	width:64px;
+}
+
+#jumbo{
+	margin-top:43px;
+	max-width:100%;
+}
+
+.main-arrows{
+	width:60px;
+	height:60px;
+	flex-basis:2;
+	color:grey;
+	
+}
+
+#main-content{
+}
+
+.content-link{
+	text-decoration:none;
+	color: #DFDFDF;
+}
+
+.content-link:hover{
+	text-decoration:underline;
+}

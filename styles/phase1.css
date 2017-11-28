@@ -1,0 +1,58 @@
+/*PHASE1*/
+body{
+	justify-content:center;
+	text-align:center;
+	margin:0;
+}
+#container0{
+	display:inline-block;
+	position:relative;
+	text-align: center;
+	justify-content:center;
+	margin-top:25%;
+	
+}
+
+#loading-text{
+	display:inline;
+}
+
+#enter-button{
+	display:none;
+	margin-top:10px;
+}
+
+#hamster-text{
+	//color:#FA225B;
+	opacity: 1;
+}
+
+#fail-text{
+	color:#FA225B;
+}
+
+#load-bar{
+	min-height:15px;
+	max-width: 300px;
+	margin:auto;
+	background-color:black;
+	margin-top:10px;
+	
+}
+
+#warning-box{
+	display:none;
+	padding-top:10px;
+}
+
+#text-button{
+	margin-top:10px;
+}
+
+#phase1{
+	
+}
+
+#phase2{
+	display:none;
+}

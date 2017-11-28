@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>FakeLoader Practice!</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Cabin|Fira+Sans|Roboto" rel="stylesheet">
+		<link href="styles/phase1.css" rel="stylesheet">
+		<link href="styles/phase2.css" rel="stylesheet">
+		
+		<style>
+			
+			
+		</style>
+	</head>
+	<body>
+
+		<div id="phase1">
+			<button onclick = "loadSite()">Skip</button>
+			<div id="container0">
+				<p id="loading-text">Loading...</p>
+				<div id="load-bar"></div>
+				<div id="warning-box">
+					<div id="hamster-text">Oh no, error 1999! The hamsters have escaped their wheels! We're aesthetically stuck in the 90's!</div>
+					<button id="text-button">Err...?</button>
+					<button id="enter-button" disabled>Enter Site</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="phase2">
+			<div id="navbar">
+				<p class="navbar-element">Navbar</p>
+				<p class="navbar-element">Put your link icons up here</p>
+			</div>
+			
+			<img id="jumbo" src="images/blue-mountains.jpg" alt="FILL IMAGE HERE">
+			
+			<div id="container1">
+				<h1 id="greeting-heading">Hey!</h1>
+				<div id="intro-div">
+					<p>How are you?</p>
+					<p>I hope your day is going okay.</p>
+					<p>Click a tile to get started!</p>
+				</div>
+				
+				<div class="row">
+					<a href = "https://github.com/acasmith" target="blank"><div id="left-tile" class="preview-tile"><img id="github-pic" src="images/GitHub-Mark-64px.png"></div></a>
+					<a href="https://freecodecamp.org/acasmith" target="blank"><div id="center-tile" class="preview-tile"><img id="free-code-camp-pic" src="images/free-code-camp-icon.png"></div></a>
+					<a href="https://codewars.com/users/Rhaenn" target="blank"><div id="right-tile" class="preview-tile"><img id="codewars-pic" src="images/codewars.png"></div></a>
+				</div>
+			</div>
+			
+				<div id="main-tile">
+					<img id="left-arrow" class="main-arrows" src="images/grey-left-arrow.png">
+					<div id="main-content">
+						
+					</div>
+					<img id="right-arrow" class="main-arrows" src="images/grey-right-arrow.png">
+				</div>	
+			
+		</div> <!--phase2 close-->
+	</body>
+	
+	<script src="scripts/phase1.js"></script>
+	<script src="scripts/phase2.js"></script>
+	
+	<script>
+		//On doc load
+		loadBarAnim1();
+		document.getElementById("text-button").onclick = changeHamsterText;
+	</script>
+	
+</html>
