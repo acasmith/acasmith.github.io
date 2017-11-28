@@ -49,6 +49,11 @@ body{
 	margin-top:10px;
 }
 
+#skip-button{
+	position:relative;
+	float:left;
+}
+
 #phase1{
 	
 }

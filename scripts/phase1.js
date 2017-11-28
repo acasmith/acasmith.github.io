@@ -111,6 +111,7 @@ function randomiseColor(currentColor){
 //Clears load screen, enables main page.
 function loadSite(){
 	document.getElementById("phase1").style.display = "none";
+	document.getElementById("skip-button").style.display="none";
 	document.getElementById("phase2").style.display = "block";
 	document.getElementsByTagName("body")[0].style.backgroundColor = "#111111";
 	attachCircleEvents();
